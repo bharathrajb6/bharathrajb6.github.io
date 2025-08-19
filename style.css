@@ -197,25 +197,6 @@ section {
   text-decoration: underline;
 }
 
-/* Experience */
-.job {
-  margin-bottom: 2rem;
-}
-.job h3 {
-  margin-bottom: 0.5rem;
-  color: #0af;
-}
-.job .duration {
-  display: block;
-  margin-bottom: 1rem;
-  font-style: italic;
-  color: #555;
-}
-.job ul {
-  list-style: disc inside;
-  margin-left: 1rem;
-}
-
 /* Contact */
 .contact-row {
   display: flex;
