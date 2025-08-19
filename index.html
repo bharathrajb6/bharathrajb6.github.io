@@ -2,81 +2,215 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bharath S R | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bharath S R – Senior Software Engineer</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+
   <!-- Navigation -->
-  <header>
-    <nav>
-      <div class="logo">Bharath S R</div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <nav>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="Bharath-S-R-CV.pdf" download>Resume</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <header id="hero">
+    <div class="section-box hero-box">
+      <h1>Bharath S R</h1>
+      <h2>Senior Software Engineer</h2>
+      <a href="Bharath-S-R-CV.pdf" class="btn" download>Download Resume</a>
+    </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Hi, I'm <span>Bharath</span></h1>
-      <p>A Backend Developer specializing in Java, Spring Boot & Microservices.</p>
-      <a href="#projects" class="btn">View My Work</a>
+  <!-- About -->
+  <section id="about">
+    <div class="section-box">
+      <h2>About Me</h2>
+      <p>
+        I’m a passionate Software Engineer with 3 years of hands-on experience in 
+        building scalable Java-based applications using Spring Boot and microservices 
+        architecture. I am proficient in the full software development lifecycle (SDLC), 
+        specializing in REST API development and Agile methodologies. I am known for writing 
+        clean, maintainable code and fostering mentorship and collaboration across 
+        cross-functional teams.
+      </p>
     </div>
   </section>
 
-  <!-- About -->
-  <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>
-      I’m a passionate Backend Developer with 3+ years of experience in building 
-      scalable applications and microservices. I enjoy solving complex problems, 
-      working with Java/Spring Boot, and exploring AI-driven projects.
-    </p>
+  <!-- Skills -->
+  <section id="skills">
+    <div class="section-box">
+      <h2>Skills</h2>
+      <div class="skill-categories">
+
+        <div class="skill-card">
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Go</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Frameworks & Libraries</h3>
+          <ul>
+            <li>Spring Boot</li>
+            <li>Spring Cloud</li>
+            <li>Django</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Databases</h3>
+          <ul>
+            <li>MySQL</li>
+            <li>MariaDB</li>
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>DevOps & Tools</h3>
+          <ul>
+            <li>Docker</li>
+            <li>Git, GitHub, Perforce</li>
+            <li>SSH, SCP</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Other Skills</h3>
+          <ul>
+            <li>Redis, Maven, JWT</li>
+            <li>Linux, Windows</li>
+            <li>Microservices, Monolithic</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
   </section>
 
   <!-- Projects -->
-  <section id="projects" class="projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
-      <div class="card">
-        <h3>E-commerce App</h3>
-        <p>Microservices-based e-commerce system using Spring Boot, Kafka, and MySQL.</p>
-        <a href="https://github.com/bharathrajb6/Ecommerce-App" target="_blank">GitHub Repo</a>
-      </div>
-      <div class="card">
-        <h3>Budget Planner</h3>
-        <p>Personal finance tracker with CSV export & email alerts for spending goals.</p>
-        <a href="https://github.com/bharathrajb6/personal-budget-planner" target="_blank">GitHub Repo</a>
-      </div>
-      <div class="card">
-        <h3>Pharmacy Software</h3>
-        <p>The Pharmacy Management System is a comprehensive solution for managing pharmaceutical operations, including inventory, prescriptions, billing, and customer data. </p>
-        <a href="https://github.com/bharathrajb6/Pharmacy" target="_blank">GitHub Repo</a>
+  <section id="projects">
+    <div class="section-box">
+      <h2>Projects</h2>
+      <div class="project-cards">
+
+        <div class="card">
+          <h3>Pharmacy Management System</h3>
+          <p>
+            A comprehensive solution for managing pharmaceutical operations, including inventory, 
+            prescriptions, billing, and customer data. It streamlines operations for pharmacies, 
+            improving efficiency and customer satisfaction.
+          </p>
+          <p><strong>Tech:</strong> Java, Spring Boot, Redis, MySQL, JWT, Maven</p>
+          <p><a href="https://github.com/bharathrajb6/Pharmacy" target="_blank">GitHub Repository</a></p>
+        </div>
+
+        <div class="card">
+          <h3>e-Commerce Application</h3>
+          <p>
+            A comprehensive e-Commerce application built as a set of microservices to manage products, 
+            users, orders, and carts. Each service is independent and modular, ensuring scalability for 
+            an excellent online shopping experience.
+          </p>
+          <p><strong>Tech:</strong> Java, Spring Boot, Redis, MySQL, JWT, Maven, Spring Cloud</p>
+          <p><a href="https://github.com/bharathrajb6/Ecommerce-App" target="_blank">GitHub Repository</a></p>
+        </div>
+
+        <div class="card">
+          <h3>Personal Budget Planner</h3>
+          <p>
+            A Spring Boot application designed to help users manage their finances efficiently. It allows 
+            CRUD operations on transactions and savings goals, user authentication, CSV export of data, and 
+            email notifications. It uses MySQL for persistence and Redis for caching.
+          </p>
+          <p><strong>Tech:</strong> Java, Spring Boot, Redis, MySQL, JWT, Maven</p>
+          <p><a href="https://github.com/bharathrajb6/personal-budget-planner" target="_blank">GitHub Repository</a></p>
+        </div>
+
+        <div class="card">
+          <h3>Gym Management System</h3>
+          <p>
+            A comprehensive Gym Management System to manage member data, subscriptions, and daily admin tasks efficiently.
+          </p>
+          <p><strong>Tech:</strong> Python, Django, MySQL</p>
+          <p><a href="https://github.com/bharathrajb6/Gym-Management-System" target="_blank">GitHub Repository</a></p>
+        </div>
+
       </div>
     </div>
   </section>
 
-<section id="resume" class="resume">
-  <h2>Resume</h2>
-  <p>You can view or download my resume here:</p>
-  <a href="assets/Bharath-S-R-CV.pdf" class="btn" target="_blank">Download Resume</a>
-</section>
+  <!-- Experience -->
+  <section id="experience">
+    <div class="section-box">
+      <h2>Experience</h2>
+
+      <div class="job">
+        <h3>Software Engineer – Xoriant Solutions Pvt. Ltd., Bangalore</h3>
+        <span class="duration">Aug 2023 – Present</span>
+        <ul>
+          <li>Engineered scalable RESTful APIs using Java and Spring Boot, collaborating with architects to enable seamless data exchange across microservices.</li>
+          <li>Engaged in Agile ceremonies and contributed across the full SDLC from requirements to production release.</li>
+          <li>Mentored 8+ junior developers, providing knowledge transfer to accelerate onboarding and improve team performance.</li>
+          <li>Created and maintained technical documentation to facilitate cross-team collaboration and reduce onboarding time.</li>
+          <li>Coordinated with product owners and stakeholders to refine requirements, delivering high-impact features on schedule.</li>
+          <li>Worked on Cisco’s Firewall Management Center project, managing security policies for next-generation firewalls.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>Associate Software Engineer – Xoriant Solutions Pvt. Ltd., Bangalore</h3>
+        <span class="duration">Aug 2022 – Jul 2023</span>
+        <ul>
+          <li>Collaborated with cross-functional teams to align on sprint objectives, ensuring timely delivery of key modules.</li>
+          <li>Conducted peer code reviews using Git and Perforce, upholding coding standards and maintaining a stable codebase.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
   <!-- Contact -->
-  <section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:bharathrajb26@gmail.com">bharathrajb26@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/bharathsr/" target="_blank">Bharath S R</a></p>
-    <p>GitHub: <a href="https://github.com/bharathrajb6" target="_blank">Bharath S R</a></p>
+  <section id="contact">
+    <div class="section-box">
+      <h2>Contact Me</h2>
+      <div class="contact-row">
+        <a href="mailto:bharathrajb26@gmail.com" target="_blank">
+          <i class="fa-solid fa-envelope"></i> Email
+        </a>
+        <a href="tel:+918277234718">
+          <i class="fa-solid fa-phone"></i> Phone
+        </a>
+        <a href="https://www.linkedin.com/in/bharathsr" target="_blank">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/bharathrajb6" target="_blank">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+      </div>
+    </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 Bharath S R</p>
+    <div class="container">
+      <p>&copy; 2025 Bharath S R. All rights reserved.</p>
+    </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
